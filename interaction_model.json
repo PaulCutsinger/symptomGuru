@@ -1,0 +1,867 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "adjunctType",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "to be honest",
+              "synonyms": [
+                "honestly"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fortunately",
+              "synonyms": [
+                "fortunately for you"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "frankly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "interestingly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "luckily",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "clearly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "unfortunately",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sadly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hopefully",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "i guess",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "well",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "bodyPartType",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "abdominal",
+              "synonyms": [
+                "stomach",
+                "abdomen",
+                "belly",
+                "gut"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "back",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "chest",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "otalgia",
+              "synonyms": [
+                "ear"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "head",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "tooth",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "arm",
+              "synonyms": [
+                "arms"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "leg",
+              "synonyms": [
+                "legs"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "foot",
+              "synonyms": [
+                "ankle",
+                "feet"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "iCantType",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "breathe",
+              "synonyms": [
+                "breathe normally"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hear",
+              "synonyms": [
+                "hear normally",
+                "losing hearing",
+                "ringing",
+                "sounds are too loud",
+                "hissing",
+                "ringing in my ears"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "move one side",
+              "synonyms": [
+                "move my arm",
+                "move my leg"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sleep",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "stop scratching",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "iFeelType",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "chills",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fever",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "paresthesia",
+              "synonyms": [
+                "numbness",
+                "tingling",
+                "electric tweaks",
+                "shocks"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "dizzy",
+              "synonyms": [
+                "about to black out",
+                "room spinning around me",
+                "room spinning",
+                "light headed"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "thirsty",
+              "synonyms": [
+                "my mouth is dry",
+                "dry mouth"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "nauseated",
+              "synonyms": [
+                "upset",
+                "queazy"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sick",
+              "synonyms": [
+                "vomit",
+                "i have to vomit",
+                "i have the flu",
+                "flu",
+                "cold"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "short of breath",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sleepy",
+              "synonyms": [
+                "tired"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sweaty",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "week",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hurt",
+              "synonyms": [
+                "hurting"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "swollen",
+              "synonyms": [
+                "bloated",
+                "inflamed"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "bleeding",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ache",
+              "synonyms": [
+                "achy",
+                "throbbing"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "intensifierType",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "crazy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "colossally",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "especially",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "exceptionally",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "excessively",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "extremely",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "extraorinarily",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fantastically",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "frightfully",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "incredibly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "insanely",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "literally",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "moderately",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "most",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "outrageously",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "phenomenally",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "quite",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "radically",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "rather",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "really",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "remarkably",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "somewhat",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "strikingly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "super",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "supremely",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "terribly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "terrifically",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "too",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "totally",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "uncommonly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "unusually",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "very",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "prefaceType",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "my",
+              "synonyms": [
+                "i",
+                "I"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "i cant",
+              "synonyms": [
+                "i can't",
+                "i cannot",
+                "i don't"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "i feel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "i've been feeling",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "i have",
+              "synonyms": [
+                "i have a"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "i'm struggling",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "i always feel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "his",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "her",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "their",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "scaleType",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "low",
+              "synonyms": [
+                "ok",
+                "annoying"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "med",
+              "synonyms": [
+                "kind of",
+                "achy",
+                "all the time",
+                "often",
+                "bad",
+                "badly"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "high",
+              "synonyms": [
+                "terrible",
+                "constantly",
+                "unbearable"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "SymptomIntent",
+        "samples": [
+          "{preface} {bodyPart} is {scale} {feels} {adjunct}",
+          "{preface} {bodyPart} {feels} {intensifier} {scale} {adjunct}",
+          "{preface} {feels} {bodyPart} {adjunct}",
+          "{preface} {feels} {scale} {adjunct}",
+          "{bodyPart} {feels}",
+          "{preface} {bodyPart} {feels} {intensifier} {scale}",
+          "{preface} {feels} {bodyPart}",
+          "{preface} {feels} {scale}",
+          "{preface} {feels}",
+          "{preface} {bodyPart} {feels}"
+        ],
+        "slots": [
+          {
+            "name": "bodyPart",
+            "type": "bodyPartType",
+            "samples": [
+              "{adjunct} {preface} {bodyPart} {feels}",
+              "{preface} {bodyPart}",
+              "{preface} {bodyPart} {feels}"
+            ]
+          },
+          {
+            "name": "scale",
+            "type": "scaleType"
+          },
+          {
+            "name": "feels",
+            "type": "iFeelType",
+            "samples": [
+              "it {feels} {intensifier}",
+              "{preface} {bodyPart} {feels}"
+            ]
+          },
+          {
+            "name": "adjunct",
+            "type": "adjunctType"
+          },
+          {
+            "name": "preface",
+            "type": "prefaceType"
+          },
+          {
+            "name": "intensifier",
+            "type": "intensifierType"
+          }
+        ]
+      }
+    ],
+    "invocationName": "symptom guru"
+  },
+  "prompts": [
+    {
+      "id": "Elicit.Intent-SymptomIntent.IntentSlot-bodyPart",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "what part of your body"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-SymptomIntent.IntentSlot-feels",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "How do you feel"
+        },
+        {
+          "type": "PlainText",
+          "value": "How are you feeling"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "SymptomIntent",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "bodyPart",
+            "type": "bodyPartType",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-SymptomIntent.IntentSlot-bodyPart"
+            }
+          },
+          {
+            "name": "scale",
+            "type": "scaleType",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "feels",
+            "type": "iFeelType",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-SymptomIntent.IntentSlot-feels"
+            }
+          },
+          {
+            "name": "adjunct",
+            "type": "adjunctType",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "preface",
+            "type": "prefaceType",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "intensifier",
+            "type": "intensifierType",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      }
+    ]
+  }
+}

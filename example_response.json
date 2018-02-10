@@ -1,0 +1,122 @@
+"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.645b60fb-f895-4af5-b065-86a3faec7b4a",
+		"timestamp": "2018-02-10T22:48:25Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "SymptomIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"feels": {
+					"name": "feels",
+					"value": "hurting",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.1f0fa7cf-27c1-4e4a-b5d8-81d8eb58d0f7.iFeelType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "hurt",
+											"id": "c0bb722d28c628d3066cc2264dcc7c87"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				},
+				"preface": {
+					"name": "preface",
+					"value": "my",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.1f0fa7cf-27c1-4e4a-b5d8-81d8eb58d0f7.prefaceType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "my",
+											"id": "6864f389d9876436bc8778ff071d1b6c"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				},
+				"intensifier": {
+					"name": "intensifier",
+					"confirmationStatus": "NONE"
+				},
+				"scale": {
+					"name": "scale",
+					"value": "kind of",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.1f0fa7cf-27c1-4e4a-b5d8-81d8eb58d0f7.scaleType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "med",
+											"id": "de4667d1f44423b565b07a7bb14790fc"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				},
+				"adjunct": {
+					"name": "adjunct",
+					"value": "to be honest",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.1f0fa7cf-27c1-4e4a-b5d8-81d8eb58d0f7.adjunctType",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "to be honest",
+											"id": "cd706e28f2045d570886e0e551896810"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				},
+				"bodyPart": {
+					"name": "bodyPart",
+					"value": "tummy",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.1f0fa7cf-27c1-4e4a-b5d8-81d8eb58d0f7.bodyPartType",
+								"status": {
+									"code": "ER_SUCCESS_NO_MATCH"
+								}
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
+				}
+			}
+		}
